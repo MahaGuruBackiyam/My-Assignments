@@ -16,7 +16,7 @@ public class TwoWheeler {
 		System.out.println("Number ofchassis:"+t.chassisNumber);
 		System.out.println("Is the wheel puncture?:"+t.isPunctured);
 		System.out.println("Name of the bike:"+t.bikeName);
-		System.out.println("Running speed:"+t.runningKM);
+		System.out.println("Running KM:"+t.runningKM);
 
 	}
 
