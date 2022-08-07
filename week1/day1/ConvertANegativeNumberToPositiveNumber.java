@@ -12,6 +12,9 @@ public class ConvertANegativeNumberToPositiveNumber {
 
 			System.out.println("The converted positive number is:" + positiveNumber);
 		}
+		else{
+			System.out.println("The given number is positive");
+		}
 	}
 
 }
