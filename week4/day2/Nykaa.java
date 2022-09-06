@@ -96,7 +96,7 @@ public class Nykaa {
 		
 		//9) Click on L'Oreal Paris Colour Protect Shampoo
 		Thread.sleep(1000);
-		WebElement lp = driver.findElement(By.xpath("(//div[@class='css-wkluxr']/following::a)[5]"));
+		WebElement lp = driver.findElement(By.xpath("//img[contains(@alt,'Colour Protect Shampoo')]);
 		act.moveToElement(lp).click().perform();
 		Thread.sleep(1000);
 		
