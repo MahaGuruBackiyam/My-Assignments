@@ -52,7 +52,7 @@ public class Nykaa {
 		//Searching L'Oreal Paris
 		driver.findElement(By.id("brandSearchBox")).sendKeys("Loreal");
 		Thread.sleep(1000);
-		WebElement LorealP= driver.findElement(By.xpath("//span[text()='2839']"));
+		WebElement LorealP= driver.findElement(By.xpath("(//div[@id='list_L']/preceding::a)[9]"));
 		LorealP.click();
 		
 		//4) Check the title contains L'Oreal Paris(Hint-GetTitle)
